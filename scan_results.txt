@@ -1,0 +1,32 @@
+# Nmap 7.97 scan initiated Mon Aug  4 18:14:14 2025 as: nmap -sS -oN scan_results.txt 10.248.179.22/24
+Nmap scan report for 10.248.179.22
+Host is up (0.0074s latency).
+All 1000 scanned ports on 10.248.179.22 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 4E:D0:D7:31:B7:39 (Unknown)
+
+Nmap scan report for 10.248.179.51
+Host is up (0.0079s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: BA:28:0E:74:2B:C5 (Unknown)
+
+Nmap scan report for 10.248.179.79
+Host is up (0.47s latency).
+All 1000 scanned ports on 10.248.179.79 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: BA:EB:12:51:0D:3A (Unknown)
+
+Nmap scan report for 10.248.179.126
+Host is up (0.0014s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+2869/tcp open  icslap
+
+# Nmap done at Mon Aug  4 18:15:30 2025 -- 256 IP addresses (4 hosts up) scanned in 75.66 seconds
